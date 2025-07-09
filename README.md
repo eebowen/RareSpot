@@ -12,3 +12,8 @@ The **RareSpot Dataset** is hosted on [BisQue](https://bisque2.ece.ucsb.edu) dat
     * Near the top left of the page, click the **Download** button.
     * From the drop-down menu that appears, select **"Download Manager"** or a similar bulk download option.
     * Select your preferred archive format. We strongly recommend using **`as TARball`** (`.tar.gz`). Other formats may not be fully supported at this time.
+
+### Training and Validation
+```python
+bash train.sh
+bash val.sh
